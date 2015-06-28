@@ -416,7 +416,7 @@
     }
     else
     {
-        remoteTitle = @"Cloud via Filepicker.io";
+        remoteTitle = @"Cloud";
     }
 
     NSMutableDictionary *mSources = [NSMutableDictionary dictionary];
