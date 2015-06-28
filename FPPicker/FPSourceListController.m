@@ -35,16 +35,6 @@
                                                                             target:nil
                                                                             action:nil];
 
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeInfoLight];
-
-    [btn addTarget:self
-               action:@selector(infoButtonRequest)
-     forControlEvents:UIControlEventTouchUpInside];
-
-    btn.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 10);
-
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
-
     //NSLog(@"sources: %@", sourceNames);
 
     if (!self.sourceNames)
