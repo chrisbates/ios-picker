@@ -258,7 +258,7 @@
     }
     else
     {
-        cloudTitle = @"Cloud via Filepicker.io";
+        cloudTitle = @"Cloud";
     }
 
 
