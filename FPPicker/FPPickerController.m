@@ -37,8 +37,6 @@
 
     self.selectMultiple = NO;
     self.maxFiles = 0;
-    self.view.superview.bounds = CGRectMake(0, 0, 320, 64);
-
 }
 
 - (instancetype)init
