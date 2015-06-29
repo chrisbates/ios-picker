@@ -256,7 +256,7 @@
 
     if (local.count > 0)
     {
-        self.sources[@"local"] = local;
+        self.sources[@"Local"] = local;
     }
 
     if (cloud.count > 0)
